@@ -1,4 +1,7 @@
-﻿string[] array1 = new string[5] {"123", "23", "hello", "world", "res"};
+﻿Console.WriteLine("Вводные значения: ");
+string[] array1 = new string[5] {"12345", "213", "hello", "world", "int"};
+PrintArray(array1);
+Console.WriteLine("Получившееся значения: ");
 string[] array2 = new string[array1.Length];
 void SecondArrayWithIF(string[] array1, string[] array2)
 {
